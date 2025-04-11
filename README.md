@@ -54,24 +54,24 @@
 
 ### 🚀 Passo a passo
 
-    1. Atualize o appSettings:
+#### 1. Atualize o appSettings: 
 
-    ```bash
-        "ConnectionStrings": {
-        "DefaultConnection": "Server=db;Database=DocSweepDB;User Id=sa;Password=Your_password123;"
-        }
-    ```
+```
+"ConnectionStrings": {
+"DefaultConnection": "Server=db;Database=DocSweepDB;User Id=sa;Password=Your_password123;"
+} 
+```
 
-    1. Clone o repositório:
+#### 1. Clone o repositório:
 
-    ```bash
-    git clone https://github.com/seu-usuario/seu-repo.git
-    cd seu-repo
-    ```
+```
+git clone https://github.com/seu-usuario/seu-repo.git
+cd seu-repo
+```
 
-    2. Suba os containers::
+#### 2. Suba os containers::
 
-    ```bash
-    docker-compose up -d --build
-    ```
+```
+docker-compose up -d --build
+```
 
