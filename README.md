@@ -19,11 +19,11 @@
 
 ## 🧩 Arquitetura de Microserviços
 
-| Serviço            | Responsabilidade                             || Status           |
-|--------------------|----------------------------------------------||------------------|
-| `ClientService`    | Cadastro de clientes, paths, dados fiscais   ||Implementado      |
-| `DocSweepService`  | Escaneamento de diretórios via Kafka         ||Em desenvolvimento|
-| `EmailService`     | Envio automático de arquivos por e-mail      ||Em desenvolvimento|
+| Serviço            | Responsabilidade                             | Status           |
+|--------------------|----------------------------------------------|------------------|
+| `ClientService`    | Cadastro de clientes, paths, dados fiscais   |Implementado      |
+| `DocSweepService`  | Escaneamento de diretórios via Kafka         |Em desenvolvimento|
+| `EmailService`     | Envio automático de arquivos por e-mail      |Em desenvolvimento|
 
 ### 🛰 Comunicação entre serviços
 - Utiliza **Apache Kafka**
